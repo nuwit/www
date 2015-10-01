@@ -1,0 +1,91 @@
+body{
+	display:block;
+	margin:0;
+	-webkit-font-smoothing:antialiased;
+	font-family:'Open Sans', sans-serif;
+}
+a{
+	color:#FFF;
+	text-decoration: none;
+}
+header{
+	/*background:#000;*/
+	overflow:auto;
+	color:#FFF;
+	font-family:'Open Sans', sans-serif;
+	text-align: center;
+	background: url("../img/NU_WiT_background.png") no-repeat center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+header h1{
+	font-weight:300;
+	font-size:102px;
+	margin:0 ;
+}
+header h1 i{
+	text-decoration: none;
+	font-style:normal;
+	color: #144A63;
+}
+header p{
+	font-style:italic;
+	margin-top:0;
+}
+header ul{
+	list-style: none;
+	display:inline;
+	padding:0;
+}
+header ul li{
+	list-style: none;
+	display:inline-block;
+	padding:20px;
+}
+nav{
+	background-color: rgba(0, 0, 0, .7);
+}
+#content{
+	width: 800px;
+	margin:25px auto;
+}
+#content h1{
+	border-bottom: 2px solid #144A63;
+	font-weight: 400;
+}
+#content h2{
+	font-weight:600;
+	border-bottom: 2px solid #144A63;
+}
+#content h3{
+	font-weight:400;
+}
+#content h3 a{
+	color: #144A63;
+}
+#content p{
+	width:700px;
+}
+#content p img{
+	display: inline;
+	float:left;
+	margin-right:10px;
+}
+/* MAYBE? */
+header ul li:hover{
+	background-color: #144A63;
+}
+
+/*CLEARFIX*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
