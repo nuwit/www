@@ -1,0 +1,92 @@
+body{
+  display:block;
+  margin:0;
+  -webkit-font-smoothing:antialiased;
+  font-family:'Open Sans', sans-serif;
+  font-size: 1.5rem;
+}
+
+header{
+  /*background:#000;*/
+  overflow:auto;
+  color:#FFF;
+  font-family:'Open Sans', sans-serif;
+  text-align: center;
+  background: url("../img/NU_WiT_background.png") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header h1{
+  font-weight:300;
+  font-size:102px;
+  margin:0 ;
+}
+header h1 i{
+  text-decoration: none;
+  font-style:normal;
+  color: #144A63;
+}
+header p{
+  font-style:italic;
+  margin-top:0;
+}
+header ul{
+  list-style: none;
+  display:inline;
+  padding:0;
+}
+header ul li{
+  list-style: none;
+  display:inline-block;
+  padding:20px;
+  &:hover {
+    background-color: #144A63;
+  }
+}
+header nav {
+  background-color: rgba(0, 0, 0, .7);
+  font-size: 1.1em;
+  ul > li > a {
+    color: #FFFFFF;
+    &:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+h1{
+  border-bottom: 2px solid #144A63;
+  font-weight: 400;
+}
+
+h2{
+  font-weight:600;
+  border-bottom: 2px solid #144A63;
+}
+
+h3{
+  font-weight:400;
+  a {
+    color: #144A63;
+  }
+}
+
+#content p img{
+  display: inline;
+  float:left;
+  margin-right:10px;
+}
+
+/*CLEARFIX*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}

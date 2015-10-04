@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(
+      name='viewport',
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0')
+    title nuWiT
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css')    
+    link(rel='stylesheet', type='text/css', href='css/main.css')
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700', rel='stylesheet', type='text/css')
+  body
+    header
+      img(src='img/NU_WiT_logo_textonly.png', alt='nuWiT')
+      nav: ul
+        each page in public._data
+          li
+            a(href="#{ page.slug }.html")= page.title
+    .container
+      .row
+        .col-sm-10.col-sm-offset-1.col-md-8.col-md-offset-2
+          != yield
+  script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
+  script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js')
