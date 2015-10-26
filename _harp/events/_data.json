@@ -1,0 +1,28 @@
+{
+  "upcoming-events": [
+    {
+      "name": "Potluck and Cookie Decorating",
+      "date": "October 26th, 2015",
+      "description": "Take a break from studying for your midterms and eat some food with friends.",
+      "fb-link": "https://www.facebook.com/events/859441030838425/"
+    },
+    {
+      "name": "Square Code Camp",
+      "date": "November 2nd, 2015",
+      "description": "Hear about Square Code Camp from Jackie and amazing female engineers from Square.",
+      "fb-link": ""
+    }
+  ],
+  "past-events": [
+    {
+      "name": "Grace Hopper Conference Re-cap",
+      "date": "October 19th, 2015",
+      "description": "Hear from everyone who went to GHC this year and learn about how to apply for next year."
+    },
+    {
+      "name": "Personal Website Day",
+      "date": "October 10th, 2015",
+      "description": "Have you been putting off setting up that personal website you always wanted to make? Lots of plans, no time? Lots of time, no plans? Come work on your website with us."
+    }
+  ]
+}

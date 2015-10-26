@@ -12,7 +12,7 @@
     "title": "Officers"
   },
   "calendar": {
-    "slug" : "calendar",
-    "title" : "Calendar"
+    "slug" : "events",
+    "title" : "Events"
   }
 }

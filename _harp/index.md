@@ -1,4 +1,4 @@
-# Who we are
+# Mission
 
 nuWiT is a student group at Northeastern University created with the intention
 of supporting and connecting females who are studying or interested in the

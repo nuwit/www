@@ -1,0 +1,33 @@
+h1 Upcoming Events
+
+each event in public.events._data["upcoming-events"]
+  h2
+    != event.name
+    if event["fb-link"]
+      a(href=event["fb-link"]) #[i.fa.fa-facebook-square.pull-right]
+  p 
+    strong Date: 
+    != event.date
+  p 
+    strong Location: 
+    if event.location
+      != event.location
+    else
+      | WVH 366
+  p 
+    strong Time: 
+    if event.time
+      != event.location
+    else
+      | 7:00pm - 8:00pm
+  p= event.description
+
+h1 Past Events
+
+each event in public.events._data["past-events"]
+  h2
+    != event.name
+  p 
+    strong Date: 
+    != event.date
+  p= event.description
