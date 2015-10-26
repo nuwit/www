@@ -3,10 +3,6 @@
     "slug" : "index",
     "title": "About"
   },
-  "contact": {
-    "slug" : "contact",
-    "title": "Contact"
-  },
   "officers": {
     "slug" : "officers",
     "title": "Officers"
