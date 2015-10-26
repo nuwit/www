@@ -1,0 +1,26 @@
+for officer in public.officers._data.officers
+  h2= officer.role + ": " + officer.name 
+  if officer.year
+    p 
+      strong Year: 
+      != officer.year
+  if officer.coops
+    p 
+      strong Where You've Co-oped: 
+      != officer.coops
+  if officer.major
+    p 
+      strong Major: 
+      != officer.major
+  if officer.whycs
+    p 
+      strong Why you chose CS/IS: 
+      != officer.whycs
+  if officer.favclass
+    p 
+      strong Favorite CS/IS class: 
+      != officer.favclass
+  if officer.hobbies
+    p 
+      strong Favorite Way to Waste Time: 
+      != officer.hobbies
